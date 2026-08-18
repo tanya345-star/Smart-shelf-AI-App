@@ -1,0 +1,29 @@
+# Node dependencies
+node_modules/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python dependencies
+venv/
+env/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Environment variables (SECURITY RISK)
+.env
+
+# AI Model Weights (Too large for GitHub)
+*.pt
+weights/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Hackathon / Prototype files
+desktop-ui-mockup.html
+*.db
+*.db-journal
